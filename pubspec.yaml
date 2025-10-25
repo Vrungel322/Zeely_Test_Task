@@ -1,0 +1,82 @@
+name: zeely_test_task
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: 3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  get: ^4.7.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+  fonts:
+    - family: Italian Plate No2 Expanded
+      fonts:
+        - asset: assets/fonts/Italian Plate No2 Expanded Black.ttf
+          weight: 900
+        - asset: assets/fonts/Italian Plate No2 Expanded Black Italic.ttf
+          weight: 900
+          style: italic
+
+        - asset: assets/fonts/Italian Plate No2 Expanded Extrabold.ttf
+          weight: 800
+        - asset: assets/fonts/Italian Plate No2 Expanded Extrabold Italic.ttf
+          weight: 800
+          style: italic
+
+        - asset: assets/fonts/Italian Plate No2 Expanded Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Italian Plate No2 Expanded Bold Italic.ttf
+          weight: 700
+          style: italic
+
+        - asset: assets/fonts/Italian Plate No2 Expanded Demibold.ttf
+          weight: 600
+        - asset: assets/fonts/Italian Plate No2 Expanded Demibold Italic.ttf
+          weight: 600
+          style: italic
+
+        - asset: assets/fonts/Italian Plate No2 Expanded Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Italian Plate No2 Expanded Medium Italic.ttf
+          weight: 500
+          style: italic
+
+        - asset: assets/fonts/Italian Plate No2 Expanded.ttf
+        - asset: assets/fonts/Italian Plate No2 Expanded Italic.ttf
+          style: italic
+
+        - asset: assets/fonts/Italian Plate No2 Expanded Light.ttf
+          weight: 300
+        - asset: assets/fonts/Italian Plate No2 Expanded Light Italic.ttf
+          weight: 300
+          style: italic
+
+        - asset: assets/fonts/Italian Plate No2 Expanded Ultralight.ttf
+          weight: 200
+        - asset: assets/fonts/Italian Plate No2 Expanded Ultralight Italic.ttf
+          weight: 200
+          style: italic
+
+        - asset: assets/fonts/Italian Plate No2 Expanded Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Italian Plate No2 Expanded Thin Italic.ttf
+          weight: 100
+          style: italic
