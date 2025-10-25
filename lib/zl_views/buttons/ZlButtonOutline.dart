@@ -9,6 +9,10 @@ class ZlButtonOutline extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
+      splashColor: Colors.transparent,
+      highlightColor: Colors.transparent,
+      hoverColor: Colors.transparent,
+      focusColor: Colors.transparent,
       onTap: onPressed,
       child: Container(
         height: 62.h,
